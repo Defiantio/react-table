@@ -55,6 +55,7 @@ const defaultGetSortByToggleProps = (props, { instance, column }) => {
 
 // Reducer
 function reducer(state, action, previousState, instance) {
+  console.log("wow amazing");
   if (action.type === actions.init) {
     return {
       sortBy: [],
